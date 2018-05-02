@@ -27,7 +27,11 @@ int main(void)
 			PORTD=~(0x80>>i);
 			_delay_ms(400);
 		}
-		
-    }
+		PORTD=0xff;
+		_delay_ms(200);
+		PORTD=0xff;
+		_delay_ms(200);
+PORTD=0xff;
+_delay_ms(200);    }
 }
 
