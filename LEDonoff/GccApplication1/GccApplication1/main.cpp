@@ -31,6 +31,11 @@ int main(void)
 			_delay_ms(500);
 		}
 		
+		PORTD=0xff;
+		_delay_ms(900);
+		PORTD=0x00;
+		_delay_ms(900);
+		
     }
 }
 
