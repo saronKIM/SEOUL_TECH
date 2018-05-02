@@ -17,6 +17,9 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+		int a;
+		int b;
+		
 		for(int i=0; i<7;i++)
 		{
 			PORTD=~(1<<i);
