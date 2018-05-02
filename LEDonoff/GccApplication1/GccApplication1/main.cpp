@@ -17,21 +17,34 @@ int main(void)
     /* Replace with your application code */
     while (1) 
     {
+		int a;
+		int b;
+		
 		for(int i=0; i<7;i++)
 		{
 			PORTD=~(1<<i);
-			_delay_ms(400);
+			_delay_ms(500);
 		}
 		for(int i=0; i<7;i++)
 		{
 			PORTD=~(0x80>>i);
-			_delay_ms(400);
+			_delay_ms(500);
 		}
+<<<<<<< HEAD
 		PORTD=0xff;
 		_delay_ms(200);
 		PORTD=0xff;
 		_delay_ms(200);
 PORTD=0xff;
 _delay_ms(200);    }
+=======
+		
+		PORTD=0xff;
+		_delay_ms(900);
+		PORTD=0x00;
+		_delay_ms(900);
+		
+    }
+>>>>>>> 0.5초딜레이
 }
 
