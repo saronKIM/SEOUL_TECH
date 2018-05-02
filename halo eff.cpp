@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main()
@@ -9,3 +10,5 @@ int main()
  	printf("sum:%d=a+b",%d);
 return 0;
 }
+=======
+>>>>>>> parent of 779f3d3... printf te 추가
